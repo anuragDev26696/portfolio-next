@@ -32,7 +32,7 @@ export default function Experience() {
           <div className='bg-gradient-to-r dark:from-[#06060b] dark:to-[#06060b] from-[#f1f1f1] to-[#f1f1f1] p-4 md:p-6 rounded-lg'>
             <h3 className="text-xl font-semibold">Frontend Developer @ Spundan</h3>
             <p className="text-gray-700 dark:text-gray-400 italic">Nov 2021 - Present | Indore, India</p>
-            <ul className="mt-3 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
+            <ul className="mt-3 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1 dark:opacity-75">
               <li>Led 6+ Angular projects for scalable enterprise solutions.</li>
               <li>Integrated REST APIs, secured apps, and improved UI/UX.</li>
               <li>Worked with Angular, React, Flutter, EJS, RxJS, Angular Material, Bootstrap, Tasilwind & SCSS.</li>
