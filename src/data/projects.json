@@ -1,0 +1,61 @@
+[
+    {
+        "title": "Bounce Daily",
+        "description": "Rental bike mobile application.",
+        "isMobileApp": true,
+        "isWebApp": false,
+        "industry": "Transportation",
+        "mobileUrl": "https://play.google.com/store/apps/details?id=com.bouncedaily.app",
+        "tech": ["Flutter", "Dart", "Razorpay", "Google Map"]
+    }, {
+        "title": "iMentorly",
+        "description": "full-scale dental clinic application.",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "Healthcare",
+        "webUrl": "https://app.imentorly.com/",
+        "tech": ["Angular 17", "RxJs", "Bootstrap", "Angular Material", "CometChat", "HTML5/CSS3/SCSS", "Node.js", "Nest.js", "Postgress SQL"]
+    }, {
+        "title": "Wokari",
+        "description": "Job search platform with advanced filters.",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "Jobs",
+        "webUrl": "https://www.wokari.com/",
+        "tech": ["Angular 16", "RxJs", "Bootstrap", "Angular Material", "HTML5/CSS3/SCSS"]
+    }, {
+        "title": "IPO JI",
+        "description": "IPO tracking and analysis platform.",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "Finance",
+        "webUrl": "https://www.ipoji.com/",
+        "tech": ["EJS", "JavaScript", "HTML5/CSS3", "Bootstrap", "Firebase", "Google Login"]
+    }, {
+        "title": "Edflik",
+        "description": "A responsive web application E-learning platform for students.",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "EduTech",
+        "webUrl": "https://www.edflik.com/",
+        "tech": ["Angular 14", "TypeScript", "HTML5/CSS3/SCSS", "Bootstrap", "Angular Material", "RxJs", "Google Login", "Nest.js", "Node.js", "MongoDb", "Razorpay"]
+    }, {
+        "title": "Edukop",
+        "description": "An e-commerce web platform that enables users to browse, search, and purchase products seamlessly.",
+        "isMobileApp": true,
+        "isWebApp": true,
+        "industry": "E-commerce",
+        "webUrl": "https://www.edukop.com/",
+        "mobileUrl": "https://play.google.com/store/apps/details?id=com.edukop.app",
+        "tech": ["Angular 14", "Ionic", "Capacitor", "TypeScript", "HTML5/CSS3/SCSS", "Bootstrap", "Angular Material", "RxJs", "Google Login", "Nest.js", "Node.js", "MongoDb", "Razorpay"]
+    }, {
+        "title": "Portfolio",
+        "description": "Personal portfolio website.",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "",
+        "url": "https://www.ankitkumar.dev/",
+        "gitHubUrl": "https://github.com/anuragDev26696/portfolio.git",
+        "tech": ["Next.js", "React", "Tailwind CSS", "TypeScript", "Node.js"]
+    }
+]
