@@ -29,7 +29,7 @@ export default function Experience() {
         <h2 className="text-3xl font-bold mb-6">Experience</h2>
         <article className="flex gap-10 space-y-1">
           <span className='sr-only md:not-sr-only grid grid-rows-[10px_1fr]'><span className='w-2.5 h-2.5 mx-auto rounded-full bg-indigo-600'></span><span className='grow-1 mx-auto w-1 bg-gradient-to-b from-indigo-600 via-indigo-400 to-transparent'></span></span>
-          <div className='bg-gradient-to-r dark:from-[#06060b] dark:to-[#06060b] from-[#f1f1f1] to-[#f1f1f1] p-4 md:p-6 rounded-lg'>
+          <div className='dark:bg-[#06060b] bg-[#f1f1f1] border dark:border-gray-800 border-[#f1f1f1] p-6 rounded-lg'>
             <h3 className="text-xl font-semibold">Frontend Developer @ Spundan</h3>
             <p className="text-gray-700 dark:text-gray-400 italic">Nov 2021 - Present | Indore, India</p>
             <ul className="mt-3 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1 dark:opacity-75">
