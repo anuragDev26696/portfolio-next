@@ -7,7 +7,7 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 
 export default function Home() {
-  const techs = ["Angular", "React", "Flutter", "Tailwind", "TypeScript", "Node.js", "MongoDB", "Ionic", "JavaScript", "Next.js", "HTML", "CSS", "Git", "Firebase", "Ionic", "Node.js", "Express.js", "REST APIs", "RxJS", "Bootstrap", "EJS"];
+  const techs = ["Angular", "React", "Flutter", "Tailwind", "TypeScript", "Node.js", "MongoDB", "Ionic", "JavaScript", "Next.js", "HTML", "CSS", "Git", "Firebase", "Ionic", "Node.js", "Express.js", "REST APIs", "RxJS", "NgRx", "Bootstrap", "EJS"];
   return (
     <>
       <Head>
