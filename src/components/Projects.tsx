@@ -26,7 +26,7 @@ export default function Projects() {
         ))}
       </div>
       {(projects.length > projectITems.length ) && (
-        <div className="text-center pt-14"><button onClick={(e) => {e.stopPropagation(); setItems(projects)}} className="border-2 rounded-full w-[100px] py-2 me-auto dark:border-indigo-200 dark:text-indigo-200 dark:hover:bg-gray-300 dark:hover:border-gray-300 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:border-indigo-600 hover:text-white dark:hover:text-black transition-all text-center">View All</button></div>
+        <div className="text-center pt-14"><button onClick={(e) => {e.stopPropagation(); setItems(projects)}} className="border-2 rounded-full w-[100px] py-2 me-auto dark:border-indigo-200 dark:text-indigo-200 dark:hover:bg-gray-300 dark:hover:border-gray-300 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:border-indigo-600 hover:text-white dark:hover:text-black transition-all text-center cursor-pointer">View All</button></div>
       )}
 
     </section>
