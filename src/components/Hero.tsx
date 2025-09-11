@@ -8,7 +8,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 export default function Hero() {
   const links = [
     { href: "https://github.com/anuragDev26696", icon: <FaGithub />, label: "GitHub" },
-    { href: "https://www.linkedin.com/in/anurag-kumar-verma-39a704189", icon: <FaLinkedinIn />, label: "LinkedIn" },
+    { href: "https://www.linkedin.com/in/anuragDev26696", icon: <FaLinkedinIn />, label: "LinkedIn" },
     { href: "https://x.com/Anuragk74826895", icon: <FaXTwitter />, label: "Twitter" },
   ];
 

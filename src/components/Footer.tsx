@@ -5,8 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   const links = [
     { href: "https://github.com/anuragDev26696", icon: <FaGithub />, label: "GitHub" },
-    { href: "https://www.linkedin.com/in/anurag-kumar-verma-39a704189", icon: <FaLinkedinIn />, label: "LinkedIn" },
-        { href: "https://x.com/Anuragk74826895", icon: <FaXTwitter />, label: "Twitter" },
+    { href: "https://www.linkedin.com/in/anuragDev26696", icon: <FaLinkedinIn />, label: "LinkedIn" },
+    { href: "https://x.com/Anuragk74826895", icon: <FaXTwitter />, label: "Twitter" },
   ];
   return (
     <footer className="py-6 text-center dark:text-gray-400 text-gray-600">
@@ -24,7 +24,7 @@ export default function Footer() {
           </a>
         ))}
       </p>
-      <small>© {new Date().getFullYear()} Anurag Kumar Verma — Built with Next.js & Tailwind CSS.</small>
+      <small>&copy; {new Date().getFullYear()} Anurag Kumar Verma — Built with Next.js & Tailwind CSS.</small>
     </footer>
   );
 }

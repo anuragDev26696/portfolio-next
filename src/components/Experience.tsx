@@ -28,10 +28,21 @@ export default function Experience() {
       <motion.div key={'exp_sec'} initial={{ opacity: 0, x: -40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ delay: 1 * 0.2 }} className='max-w-7xl mx-auto'>
         <h2 className="text-3xl font-bold mb-6">Experience</h2>
         <article className="flex gap-10 space-y-1">
+          <span className='sr-only md:not-sr-only grid grid-rows-[10px_1fr]'><span className='w-2.5 h-2.5 mx-auto rounded-full bg-indigo-600'></span><span className='grow-1 mx-auto w-1 bg-indigo-600'></span></span>
+          <div className='dark:bg-[#06060b] bg-[#f1f1f1] flex-1 border dark:border-gray-800 border-[#f1f1f1] p-6 rounded-lg mb-4'>
+            <h3 className="text-xl font-semibold">Software Engineer @ Peritos Solutions</h3>
+            <p className="text-gray-700 dark:text-gray-400 italic">Jul 2025 - Present | Noida, India</p>
+            <ul className="mt-3 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1 dark:opacity-75">
+              <li>Integrated REST APIs, secured apps, and improved UI/UX.</li>
+              <li>Worked with Angular, Angular Material, NgRx, RxJs, Bootstrap, SCSS.</li>
+            </ul>
+          </div>
+        </article>
+        <article className="flex gap-10 space-y-1">
           <span className='sr-only md:not-sr-only grid grid-rows-[10px_1fr]'><span className='w-2.5 h-2.5 mx-auto rounded-full bg-indigo-600'></span><span className='grow-1 mx-auto w-1 bg-gradient-to-b from-indigo-600 via-indigo-400 to-transparent'></span></span>
-          <div className='dark:bg-[#06060b] bg-[#f1f1f1] border dark:border-gray-800 border-[#f1f1f1] p-6 rounded-lg'>
+          <div className='dark:bg-[#06060b] flex-1 bg-[#f1f1f1] border dark:border-gray-800 border-[#f1f1f1] p-6 rounded-lg'>
             <h3 className="text-xl font-semibold">Frontend Developer @ Spundan</h3>
-            <p className="text-gray-700 dark:text-gray-400 italic">Nov 2021 - Present | Indore, India</p>
+            <p className="text-gray-700 dark:text-gray-400 italic">Nov 2021 - Jul 2025 | Indore, India</p>
             <ul className="mt-3 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1 dark:opacity-75">
               <li>Led 6+ Angular projects for scalable enterprise solutions.</li>
               <li>Integrated REST APIs, secured apps, and improved UI/UX.</li>

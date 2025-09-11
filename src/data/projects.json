@@ -1,5 +1,13 @@
 [
     {
+        "title": "Hospital",
+        "description": "Hospital management",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "Healthcare",
+        "mobileUrl": "",
+        "tech": ["Angular 15", "Angular Material", "NgRx", "RxJs", "TypeScript"]
+    }, {
         "title": "Bounce Daily",
         "description": "Rental bike mobile application.",
         "isMobileApp": true,
@@ -48,5 +56,14 @@
         "webUrl": "https://www.edukop.com/",
         "mobileUrl": "https://play.google.com/store/apps/details?id=com.edukop.app",
         "tech": ["Angular 14", "Ionic", "Capacitor", "TypeScript", "HTML5/CSS3/SCSS", "Bootstrap", "Angular Material", "RxJs", "Google Login", "Nest.js", "Node.js", "MongoDb", "Razorpay"]
+    }, {
+        "title": "Portfolio",
+        "description": "Personal portfolio website.",
+        "isMobileApp": false,
+        "isWebApp": true,
+        "industry": "",
+        "url": "https://www.ankitkumar.dev/",
+        "gitHubUrl": "https://github.com/anuragDev26696/portfolio.git",
+        "tech": ["Next.js", "React", "Tailwind CSS", "TypeScript", "Node.js"]
     }
 ]

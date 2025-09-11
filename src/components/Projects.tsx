@@ -9,9 +9,7 @@ export default function Projects() {
   const [projectITems, setItems] = useState(projects.slice(0,4) || []);
   return (
     <section id="projects" className="py-16 px-6 sm:px-12">
-      <h2 className="text-3xl font-bold mb-8 max-w-7xl mx-auto flex items-center gap-6">Projects
-        {(projects.length > projectITems.length ) && <button onClick={(e) => {e.stopPropagation(); setItems(projects)}} className="ms-auto font-normal text-sm text-indigo-500 dark:text-gray-400 hover:tracking-wide dark:hover:text-indigo-100 transition-all">View All</button>}
-      </h2>
+      <h2 className="text-3xl font-bold mb-8 max-w-7xl mx-auto flex items-center gap-6">Projects</h2>
       <div className={"grid gap-6 md:grid-cols-2 max-w-7xl mx-auto"}>
         {projectITems.map((project, index) => (
           <motion.article initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: 1 * 0.2 }} key={'project_'+index} className="p-6 border dark:border-gray-800 border-[#f1f1f1] rounded-lg bg-[#f1f1f1] dark:bg-[#06060b] hover:ring-black/30 transition">
@@ -27,6 +25,10 @@ export default function Projects() {
           </motion.article>
         ))}
       </div>
+      {(projects.length > projectITems.length ) && (
+        <div className="text-center pt-14"><button onClick={(e) => {e.stopPropagation(); setItems(projects)}} className="border-2 rounded-full w-[100px] py-2 me-auto dark:border-indigo-200 dark:text-indigo-200 dark:hover:bg-gray-300 dark:hover:border-gray-300 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:border-indigo-600 hover:text-white dark:hover:text-black transition-all text-center cursor-pointer">View All</button></div>
+      )}
+
     </section>
 
     
